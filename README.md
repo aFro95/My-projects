@@ -2,6 +2,8 @@
 
 A password manager is a software application that helps users store and organize passwords. This Python program provides a simple yet effective interface for managing passwords securely.
 
+<img src="Password Manager.png" alt="Password Manager" style="width: 500px; height: 500px">
+
 ## Table of Contents
 - [Description](#description)
 - [Features](#features)
