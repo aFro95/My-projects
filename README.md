@@ -1,26 +1,36 @@
-# Password-Manager
-A simple password manager with a graphical user interface (GUI) built using Python and Tkinter.
+# Password Manager
+
+A password manager is a software application that helps users store and organize passwords. This Python program provides a simple yet effective interface for managing passwords securely.
+
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Usage](#usage)
+- [License](#license)
+
 ## Description
 
-This Python password manager is a user-friendly tool for generating and securely storing passwords for various websites and online accounts. It uses Tkinter for the GUI and stores the data in a JSON file.
+The Password Manager allows users to store login information for various websites securely. It generates strong passwords, saves them, and provides an option to retrieve them when needed. The program uses a JSON file to store the data securely locally.
 
 ## Features
 
-- Password generation with a mix of lowercase letters, uppercase letters, numbers, and symbols.
-- Securely store website, email, and password information.
-- Find and display saved passwords for websites.
-- User-friendly graphical interface.
+- **Password Generation**: Users can generate strong and random passwords with the click of a button.
+- **Data Storage**: Login information (website, email/username, and password) is stored securely in a JSON file.
+- **Data Retrieval**: Users can search for stored passwords by entering the website name.
+- **User-Friendly Interface**: The graphical user interface makes it easy to add, search, and generate passwords.
 
-## Getting Started
+## Usage
 
-### Prerequisites
+1. **Run the Program**: Execute the Python script to start the Password Manager.
+    ```
+    python main.py
+    ```
 
-- Python 3.x installed on your system.
-- The Tkinter library is included with most Python installations.
+2. **Add Password**: Enter the website, email/username, and password in the respective fields and click the "Add" button to save.
+3. **Generate Password**: Click the "Generate Password" button to create a strong random password and automatically insert it into the password field.
+4. **Search Password**: Enter the website name and click the "Search" button to retrieve the stored password.
+5. **Copy Password**: Click the password field to copy the password to the clipboard for easy use.
 
-### Installation
+## License
 
-1. Clone the repository:
-
-   ```sh
-   git clone https://github.com/aFro95/Password-Manager.git
+This project is licensed under the MIT License.
